@@ -1,4 +1,16 @@
-% threepoints.pl
+% full.pl
+
+% Tests for 3D point processing:
+% query(isosceles3D(point3d(3,-2,-3), point3d(7,0,1), point3d(1,2,1))).
+% query(isosceles3D(point3d(5,-1,2), point3d(-1,1,2), point3d(1,-3,-2))).
+% query(equilateral3D(point3d(-1,1,3), point3d(-1,3,5), point3d(-3,3,3))).
+% query(equilateral3D(point3d(-1,1,3), point3d(-1,3,5), point3d(-3,3,3))).
+% query(right3D(point3d(0,0,0), point3d(6,0,6), point3d(6,0,0))).
+% query(scalene3D(point3d(14,2,3), point3d(2,3,1), point3d(5, 7,2))).
+% query(acute3D(point3d(0,0,3), point3d(3,30,2), point3d(3,3,4))).
+% query(acute3D(point3d(12,12,3), point3d(12,12,1), point3d(0,23,5))).
+% query(obtuse3D(point3d(0,0,3), point3d(3,30,2), point3d(3,3,4))).
+% query(obtuse3D(point3d(12,12,3), point3d(12,12,1), point3d(0,23,5))).
 
 % point2d() structure
 point2d(X,Y):-number(X), number(Y).

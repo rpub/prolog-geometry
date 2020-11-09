@@ -3,11 +3,9 @@ query(line(point2d(0,0), point2d(2,4), point2d(5,0))).
 query(line(point2d(0,0), point2d(3,2), point2d(6,4))).
 query(line(point2d(0,0), point2d(5,0), point2d(2.5,sqrt(18.75)))).
 
-
 query(triangle(point2d(0,0), point2d(2,4), point2d(5,0))).
 query(triangle(point2d(0,0), point2d(3,2), point2d(6,4))).
 query(triangle(point2d(0,0), point2d(5,0), point2d(2.5,sqrt(18.75)))).
-
 
 query(equilateral(point2d(0,0), point2d(2,4), point2d(5,0))).
 query(isosceles(point2d(0,0), point2d(2,4), point2d(5,0))).
